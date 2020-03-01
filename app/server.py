@@ -32,7 +32,7 @@ async def download_file(url, dest):
 
 
 async def setup_learner():
-    await download_file(model_file_url, path/'models'/f'{model_file_name}.pkl')
+    await download_file(export_file_url, path/'models'/f'{export_file_name}.pkl')
     defaults.device = torch.device('cpu')
     learn = load_learner(path/'models')
     return learn
