@@ -1,6 +1,8 @@
 import aiohttp
 import asyncio
 import uvicorn
+import PIL
+PIL.PILLOW_VERSION = PIL.__version__
 from fastai import *
 from fastai.vision import *
 from io import BytesIO
