@@ -11,7 +11,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1luxv1aOUSiOOMp0zYBF8kgyW9xaWmB0R'
+export_file_url = 'https://drive.google.com/u/0/uc?export=download&confirm=H3Nm&id=1pT9xg_gQhgxeG20NcgKsk-hDrkcfLtWW'
 export_file_name = 'export.pkl'
 
 classes = ['Parasitized', 'Uninfected']
